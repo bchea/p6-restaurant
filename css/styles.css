@@ -1,0 +1,99 @@
+body {
+  background: black;
+}
+article {
+  postion: relative
+}
+header {
+  background: black;
+  height: 8em;
+}
+.logo {
+	width: 150px;
+	height: 120px;
+}
+.header {
+	height: 120px;
+	width: 10em;
+	margin-left: 10px
+}
+.info{
+  background: #a7a9ac;
+  position: absolute;
+}
+h1 {
+  font-size: 2em;
+}
+.menu {
+  background: #808285;
+  position: absolute;
+  margin-top: 100px
+
+}
+img {
+	max-height: 100%;
+	max-width: 100%
+}
+
+.yellow {
+  border: solid yellow;
+}
+.lightblue {
+  border: solid lightblue;
+}
+.red {
+  border: solid red;
+}
+.purple {
+  border: solid purple;
+}
+.darkblue {
+  border: solid darkblue;
+}
+.green {
+  border: solid green;
+}
+.location {
+  background: #58595b;
+  position: absolute;
+  margin-top: 200px;
+}
+iframe {
+  width: 75%;
+  
+}
+.locationbody {
+  text-align: center;
+}
+h4 {
+  color: white;
+  padding-left: 8px;
+}
+h4:hover{
+  color: blue;
+}
+aside {
+  margin-left: 100px;
+  margin-top: 75px;
+  width: 65%;
+}
+h3 {
+  float: left;
+  
+}
+.food {
+  height: 200px;
+  width: 150px;
+  float: left;
+  margin: 10px 1px;
+  text-align: center;
+}
+div {
+  overflow: hidden;
+  height: 100%;
+  width: 80px;
+  transition: width 1s;
+}
+.showbody {
+  width: 100%;
+}
